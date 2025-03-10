@@ -2,3 +2,5 @@ Metadata-Version: 2.1
 Name: theater_work
 Version: 0.1
 License-File: LICENSE.md
+Requires-Dist: sqlalchemy<2.0
+Requires-Dist: pytest
