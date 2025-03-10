@@ -4,3 +4,4 @@ Version: 0.1
 License-File: LICENSE.md
 Requires-Dist: sqlalchemy<2.0
 Requires-Dist: pytest
+Requires-Dist: alembic

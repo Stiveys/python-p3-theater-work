@@ -7,5 +7,6 @@ setup(
     install_requires=[
         "sqlalchemy<2.0",  # Pin SQLAlchemy to version less than 2.0
         "pytest",
+        "alembic",  # For database migrations
     ],
 )
