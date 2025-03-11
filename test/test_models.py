@@ -1,4 +1,10 @@
 import pytest
+import warnings
+from sqlalchemy import exc as sa_exc
+
+# Suppress SQLAlchemy warnings
+warnings.filterwarnings('ignore', category=sa_exc.SAWarning)
+
 from lib.db.models import Base, engine, session
 from lib.models.role import Role
 from lib.models.audition import Audition
